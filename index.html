@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRASKANSA - Ambalan Pramuka smk 1 kendari</title>
+    
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- OVERLAY UTAMA UNTUK MOBILE MENU -->
+    <div class="nav-overlay" id="nav-overlay"></div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <img src="https://pramuka.or.id/assets/uploads/2022/01/logo-pramuka.png" alt="Logo Pramuka" class="logo-img">
+                <div class="logo-text">
+                    <span class="brand-title">PRASKANSA</span>
+                    <span class="brand-sub">Ambalan Pramuka</span>
+                </div>
+            </a>
+
+            <button class="menu-toggle" id="mobile-menu" aria-label="Buka Navigasi">
+                <i class="fa-solid fa-bars-staggered" id="menu-icon"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-list">
+                <li><a href="#home" class="nav-item active"><i class="fa-solid fa-house"></i> Beranda</a></li>
+                <li><a href="#about" class="nav-item"><i class="fa-solid fa-compass"></i> Tentang</a></li>
+                <li><a href="#dewan" class="nav-item"><i class="fa-solid fa-user-shield"></i> Dewan</a></li>
+                <li><a href="#memori" class="nav-item"><i class="fa-solid fa-photo-film"></i> Memori</a></li>
+                <li><a href="#anggota" class="nav-item"><i class="fa-solid fa-users"></i> Anggota</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <div class="hero-content">
+            <div class="badge-tag"><i class="fa-solid fa-award"></i> Pramuka Penegak Unggulan</div>
+            <h1>Satyaku Kudarmakan,<br><span class="highlight-text">Darmaku Kubaktikan.</span></h1>
+            <p>Wadah pembentukan karakter, kedisiplinan tinggi, dan kepemimpinan generasi muda PRASKANSA yang tangguh dan berintegritas.</p>
+            <div class="hero-buttons">
+                <a href="#dewan" class="btn btn-primary"><i class="fa-solid fa-users-gear"></i> Struktur Dewan</a>
+                <a href="#anggota" class="btn btn-secondary"><i class="fa-solid fa-address-book"></i> Cari Anggota</a>
+            </div>
+            
+            <!-- STATS COUNTER -->
+            <div class="hero-stats">
+                <div class="stat-box">
+                    <span class="stat-number">1</span>
+                    <span class="stat-label">Pembina</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">13+</span>
+                    <span class="stat-label">Pengurus Dewan</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">36</span>
+                    <span class="stat-label">Anggota Aktif</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TENTANG KAMI -->
+    <section id="about" class="section">
+        <div class="section-header">
+            <span class="section-badge">Profil Singkat</span>
+            <h2>Tentang PRASKANSA</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-card">
+            <div class="about-icon"><i class="fa-solid fa-campground"></i></div>
+            <p><strong>PRASKANSA</strong> adalah wadah pembinaan karakter, kedisiplinan, dan kepemimpinan generasi muda. Berlandaskan pada <strong>Tri Satya</strong> dan <strong>Dasa Darma Pramuka</strong>, kami berkomitmen mencetak kader-kader muda yang kreatif, tangguh, dan siap berbakti bagi masyarakat serta bangsa.</p>
+        </div>
+    </section>
+
+    <!-- DEWAN AMBALAN -->
+    <section id="dewan" class="section">
+        <div class="section-header">
+            <span class="section-badge">Kepengurusan</span>
+            <h2>Dewan Ambalan</h2>
+            <div class="underline"></div>
+        </div>
+
+        <!-- PEMBINA -->
+        <div class="pembina-wrapper">
+            <div class="card-dewan pembina-card">
+                <div class="dewan-badge"><i class="fa-solid fa-star"></i> Pembina Utama</div>
+                <div class="avatar"><i class="fa-solid fa-user-shield"></i></div>
+                <h3>Lagamoro</h3>
+                <p>Pembina Pramuka</p>
+            </div>
+        </div>
+
+        <!-- GRID DEWAN -->
+        <div class="grid-dewan">
+            <div class="card-dewan highlight-card">
+                <div class="avatar"><i class="fa-solid fa-user-tie"></i></div>
+                <h3>Muh Adi Saputra</h3>
+                <p>Pradana Putra</p>
+            </div>
+            <div class="card-dewan highlight-card">
+                <div class="avatar"><i class="fa-solid fa-user-graduate"></i></div>
+                <h3>Marisa Safitri Lubis</h3>
+                <p>Pradana Putri</p>
+            </div>
+            <div class="card-dewan">
+                <div class="avatar"><i class="fa-solid fa-pen-nib"></i></div>
+                <h3>Fathir Al Hajadhan</h3>
+                <p>Kerani Putra</p>
+            </div>
+            <div class="card-dewan">
+                <div class="avatar"><i class="fa-solid fa-pen-nib"></i></div>
+                <h3>Madina</h3>
+                <p>Kerani Putri</p>
+            </div>
+            <div class="card-dewan">
+                <div class="avatar"><i class="fa-solid fa-wallet"></i></div>
+                <h3>Muh Agung</h3>
+                <p>Bendahara Putra</p>
+            </div>
+            <div class="card-dewan">
+                <div class="avatar"><i class="fa-solid fa-wallet"></i></div>
+                <h3>Ismawati</h3>
+                <p>Bendahara Putri</p>
+            </div>
+            <div class="card-dewan">
+                <div class="avatar"><i class="fa-solid fa-book-open"></i></div>
+                <h3>Irna Mayasari</h3>
+                <p>Koordinator Materi</p>
+            </div>
+            <div class="card-dewan">
+                <div class="avatar"><i class="fa-solid fa-user"></i></div>
+                <h3>Eryna Zara</h3>
+                <p>Anggota Koordinator Materi</p>
+            </div>
+            <div class="card-dewan">
+                <div class="avatar"><i class="fa-solid fa-user"></i></div>
+                <h3>Rudika Ibrahim</h3>
+                <p>Anggota Koordinator Materi</p>
+            </div>
+            <div class="card-dewan">
+                <div class="avatar"><i class="fa-solid fa-bullhorn"></i></div>
+                <h3>Yazril Arya Agung Y.Y.Y.I</h3>
+                <p>Koordinator Lapangan</p>
+            </div>
+            <div class="card-dewan">
+                <div class="avatar"><i class="fa-solid fa-user"></i></div>
+                <h3>Puput</h3>
+                <p>Anggota Koordinator Lapangan</p>
+            </div>
+            <div class="card-dewan">
+                <div class="avatar"><i class="fa-solid fa-comments"></i></div>
+                <h3>Feby Alifka</h3>
+                <p>Koordinator Humas</p>
+            </div>
+            <div class="card-dewan">
+                <div class="avatar"><i class="fa-solid fa-user"></i></div>
+                <h3>Hendrik Kawatak</h3>
+                <p>Anggota Koordinator Humas</p>
+            </div>
+            <div class="card-dewan">
+                <div class="avatar"><i class="fa-solid fa-user"></i></div>
+                <h3>Tiara Fadilah</h3>
+                <p>Anggota Koordinator Humas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERI MEMORI -->
+    <section id="memori" class="section">
+        <div class="section-header">
+            <span class="section-badge">Dokumentasi</span>
+            <h2>Memori 17 Agustus</h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="grid-galeri">
+            <div class="card-galeri video-card">
+                <div class="media-container">
+                    <video controls preload="metadata">
+                        <source src="https://files.catbox.moe/nlbuyw.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="caption"><i class="fa-solid fa-circle-play"></i> Video Dokumentasi 1</div>
+            </div>
+
+            <div class="card-galeri video-card">
+                <div class="media-container">
+                    <video controls preload="metadata">
+                        <source src="https://files.catbox.moe/zm3r8y.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="caption"><i class="fa-solid fa-circle-play"></i> Video Dokumentasi 2</div>
+            </div>
+
+            <div class="card-galeri">
+                <div class="media-container">
+                    <img src="https://files.catbox.moe/exf754.jpeg" alt="Foto Memori 1" loading="lazy">
+                </div>
+                <div class="caption"><i class="fa-solid fa-image"></i> Foto Kegiatan 1</div>
+            </div>
+
+            <div class="card-galeri">
+                <div class="media-container">
+                    <img src="https://files.catbox.moe/0wivom.jpeg" alt="Foto Memori 2" loading="lazy">
+                </div>
+                <div class="caption"><i class="fa-solid fa-image"></i> Foto Kegiatan 2</div>
+            </div>
+
+            <div class="card-galeri">
+                <div class="media-container">
+                    <img src="https://files.catbox.moe/e2vxpa.jpeg" alt="Foto Memori 3" loading="lazy">
+                </div>
+                <div class="caption"><i class="fa-solid fa-image"></i> Foto Kegiatan 3</div>
+            </div>
+
+            <div class="card-galeri">
+                <div class="media-container">
+                    <img src="https://files.catbox.moe/co39c5.jpeg" alt="Foto Memori 4" loading="lazy">
+                </div>
+                <div class="caption"><i class="fa-solid fa-image"></i> Foto Kegiatan 4</div>
+            </div>
+
+            <div class="card-galeri">
+                <div class="media-container">
+                    <img src="https://files.catbox.moe/kzolcr.jpeg" alt="Foto Memori 5" loading="lazy">
+                </div>
+                <div class="caption"><i class="fa-solid fa-image"></i> Foto Kegiatan 5</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ANGGOTA PRAMUKA -->
+    <section id="anggota" class="section">
+        <div class="section-header">
+            <span class="section-badge">Database Siswa</span>
+            <h2>Daftar 36 Anggota PRASKANSA</h2>
+            <div class="underline"></div>
+        </div>
+
+        <!-- SEARCH BAR -->
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" id="search-input" placeholder="Cari nama atau kelas anggota...">
+        </div>
+
+        <div class="grid-anggota" id="anggota-container"></div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">PRASKANSA</div>
+            <p>Satyaku Kudarmakan, Darmaku Kubaktikan.</p>
+            <div class="footer-copy">&copy; 2026 PRASKANSA SMK 1 KENDARI BY @Asril. All Rights Reserved.</div>
+        </div>
+    </footer>
+
+    <!-- POPUP WARNING INSPECT -->
+    <div class="popup-overlay" id="popup-inspect">
+        <div class="popup-box">
+            <div class="popup-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div class="popup-title">Akses Dibatasi</div>
+            <div class="popup-desc">Sistem Dikelola Oleh Developer: <strong>Baso Asril</strong>. Yang curi/rename sumpahkan.</div>
+            <button class="btn-close-popup" id="btn-close-popup">Mengerti</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
